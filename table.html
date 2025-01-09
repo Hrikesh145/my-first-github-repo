@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            width: 50%;
+            margin: 20px auto;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px 20px;
+        }
+        .bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">HTML Table</h1>
+    <table>
+        <tbody>
+            <tr>
+                <td rowspan="2"></td>
+                <td colspan="2">Average</td>
+                <td rowspan="2">Red Eyes</td>
+            </tr>
+            <tr>
+                <td class="bold">Height</td>
+                <td class="bold">Weight</td>
+            </tr>
+            <tr>
+                <td class="bold">Male</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td class="bold">Female</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
